@@ -6,7 +6,9 @@
     "scripts": {
         "dev": "webpack-dev-server --env.NODE_ENV=development --inline --hot --devtool source-map",
         "build": "webpack --env.NODE_ENV=production --env.production --progress",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev:node": "node scripts/start.js",
+        "build:node": "node scripts/build.js"
     },
     "author": "zhangjing",
     "license": "ISC",
